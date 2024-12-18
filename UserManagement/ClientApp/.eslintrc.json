@@ -1,0 +1,21 @@
+{
+    "env": {
+        "browser": true // To enable browser-specific globals
+        // "node": true,    // To enable Node.js specific globals
+        // "es6": true       // To enable ES6 features
+      },
+    "extends": [
+        // "eslint:recommended"
+        // "plugin:react/recommended" // To enable React specific linting rules
+    ],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+        // "ecmaFeatures": {
+        //     "jsx": false
+        // }
+    },
+    "plugins": [
+        "react"
+    ]
+}
